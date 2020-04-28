@@ -1,0 +1,57 @@
+Wprowadzone zmiany:
+Każdy kod do zadania został stworzony w osobnej klasie w pakiecie testy. 
+Dodatkowo zmianie uległ kod programu do zadania:
+* Napisz program, który zwróci prawdę, jeśli sekwencja liczb 1, 2, 3 pojawi się gdzieś  tablicy liczb całkowitych  
+* Napisz program, który zwróć nową tablicę z elementami w odwrotnej kolejności, np. {1, 2, 3} stanie się {3, 2, 1} ( w tym przypadku zwraca Stringa zawierającego odwrotność tablicy)
+
+Stworzono testy jednstkowe do każdej klasy:
+
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci prawdę, jeśli jedna z dwóch temperatur jest mniejsza niż 100 
+Test sprawdza pięć przypadków: czy zwróci prawdę jeśli para liczb to:
+a) 123 oraz 65
+b) 65 oraz 55
+c) 123 oraz 123
+Czy zwróci nieprawdę jeśli para liczb to:
+d) 123 oraz 87
+e) 23 oraz 54
+Wynikiem testu jest : 3 poprawne oraz 2 niepoprawne
+Czyli program jest poprawny (przypadki a,c,e są poprawne oraz b i d niepoprawne
+
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci prawdę, jeśli sekwencja liczb 1, 2, 3 pojawi się gdzieś  tablicy liczb całkowitych 
+ Test sprawdza pięć przypadków: czy zwróci prawdę jeśli elementami tablicy są:
+a) 4,3,2,5,1,2,3
+b) 5,4,3,2,1
+c) 7,7,7,7,5,4
+Czy zwróci nieprawdę jeśli elementami tablicy są:
+d) 3
+e) 1,2,3,2,2,1
+Wynikiem testu jest : 2 poprawne oraz 3 niepoprawne
+Czyli program jest poprawny (przypadki a i d są poprawne oraz b,c i d są niepoprawne
+
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróci połowę ciągu znaków ze Stringa 
+Test sprawdza sześć przypadków: czy zwróci prawdę jeśli porówna:
+a) "Javajes" z wywołaniem metody dla tekstu: "JavajestSuper"
+b) "StefanLubi" z wywołaniem metody dla tekstu: "StefanLubiDuzoJesc"
+c) "StefanLubi" z wywołaniem metody dla tekstu: "Javajestsuper"
+d) "Javajes" z wywołaniem metody dla tekstu: "StefanLubiDuzoJesc"
+e) "Java" z wywołaniem metody dla tekstu: "JavajestSuper"
+f) "Stefan" z wywołaniem metody dla tekstu: "StefanLubiDuzoJesc"
+Wynikiem testu jest : 2 poprawne oraz 4 niepoprawne
+Czyli program jest poprawny (przypadki a i b są poprawne oraz c,d,e i f niepoprawne
+
+------------------------------------------------------------------------------------
+
+*Napisz program, który zwróć nową tablicę ( w tym przypadku Stringa składającego się) z elementami w odwrotnej kolejności, np. {1, 2, 3} stanie się {3, 2, 1} 
+Test sprawdza cztery przypadki: czy zwróci prawdę jeśli porówna:
+a) "654321" z wywołaniem metody dla tablicy [1,2,3,4,5,6]
+b) tablicę [7,7,7,7,5,4] z wywołaniem metody dla tablicy [1,2,3,4,5,6]
+c) "23456" z wywołaniem metody dla tablicy [6,5,4,3,2]
+d) "65432" z wywołaniem metody dla tablicy [6,5,4,3,2]
+Wynikiem testu jest : 2 poprawne oraz 2 niepoprawne
+Czyli program jest poprawny (przypadki a i c są poprawne oraz b i d niepoprawne
